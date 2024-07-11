@@ -1,3 +1,5 @@
+package banco;
+
 public class Main {
     public static void printContaCorrente(ContaCorrente c) {
         System.out.printf("Numero: %s\n", c.numeroDaConta);
@@ -9,13 +11,19 @@ public class Main {
         ContaCorrente c1 = new ContaCorrente("123-x", "Maria");
         ContaCorrente c2 = new ContaCorrente("456-x", "Joao");
         ContaCorrente c3 = c1;
+        ContaCorrente c4 = null;
+
+        // printContaCorrente(c4);
+
+        // if (c4 != null) {
+        //     c4.depositar(100);
+        // }        
 
         printContaCorrente(c1);        
         System.out.println();
         printContaCorrente(c2);
         System.out.println();
         printContaCorrente(c3);
-
 
         c1.depositar(100);
         c2.depositar(50);
@@ -32,6 +40,5 @@ public class Main {
         printContaCorrente(c1);
         System.out.println();
         printContaCorrente(c2);
-
     }
 }

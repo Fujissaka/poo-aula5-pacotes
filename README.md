@@ -1,8 +1,6 @@
-## Template para projetos Java no GitHub Codespaces
+## Aulas 05 e 06 - Classes e objetos
 
-Esse repositório contém um template para projetos Java no GitHub Codespaces. 
-
-Procedimento sugerido para gerar um novo projeto:
-
-1. Crie um novo repositório a partir desse template (por exemplo, crie um "fork" desse repositório).
-2. A partir do repositório criado, clique em "Code", aba "Codespaces" e depois em "New codespace".
+* classe `ContaCorrente`: demonstra definição de classes com propriedades, métodos e construtor
+    * exemplo definição de pacote
+* classe `ContaCorrenteTeste`: exemplo de importação de classe a partir de um pacote
+* classe `NamingConventions`: algumas dicas de formatação de código em Java
